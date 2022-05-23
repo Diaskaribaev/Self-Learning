@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Authentication.LoginActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register Account"
+            android:textStyle="bold"
+            android:textColor="#303e6a"
+            android:textSize="30sp"
+
+            />
+
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Continue by filling account details
+\nor  login with social media"
+            android:textSize="18sp"
+            />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signin"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/roundededit"
+        android:drawableRight="@drawable/ic_baseline_person_24"
+        android:drawablePadding="5dp"
+        android:hint="Name"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey" />
+    <EditText
+        android:id="@+id/surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signin"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/roundededit"
+        android:drawableRight="@drawable/ic_baseline_person_24"
+        android:drawablePadding="5dp"
+        android:hint="Surname"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signin"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/roundededit"
+        android:drawableRight="@drawable/ic_baseline_person_24"
+        android:drawablePadding="5dp"
+        android:hint="Email"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_below="@+id/signin"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/roundededit"
+        android:drawableRight="@drawable/ic_baseline_visibility_off_24"
+        android:drawablePadding="5dp"
+        android:hint="Password"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey" />
+
+
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/roundededit"
+        android:layout_height="55dp"
+        android:text="Create an Account"
+        android:textAllCaps="false"
+        />
+
+
+    <Button
+        android:id="@+id/loginPage"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/roundededit"
+        android:layout_height="55dp"
+        android:text="Login"
+        />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StartActivity">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="150dp"
+            android:paddingRight="50dp"
+
+            >
+
+            <ImageView
+                android:layout_width="271dp"
+                android:layout_height="266dp"
+                android:layout_gravity="center"
+                android:background="@drawable/proger222" />
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:drawableRight="@drawable/ic_baseline_east_24"
+            android:fontFamily="sans-serif"
+            android:background="@drawable/roundedline"
+            android:text="Let's get started "
+            android:onClick="StartApp"
+            android:textAllCaps="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="30dp"
+                android:paddingTop="15dp"
+                android:text="Ready to learn?"
+                android:textColor="#303e6a"
+                android:textSize="25sp"
+                android:textStyle="bold"
+
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="We made it easier for you to look with the best interior design inspiration "
+            android:textColor="@color/grey"
+            android:textSize="15sp"
+            android:paddingTop="10dp"
+            android:paddingEnd="20dp"
+            android:paddingLeft="30dp"
+
+            />
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

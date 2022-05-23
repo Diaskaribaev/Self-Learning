@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Content.Python">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saved videos"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:padding="25dp"
+        android:textColor="#303e6a"
+
+        />
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/javaplayer"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:videoId="eIrMbAQSU34"
+        app:autoPlay="false"
+
+
+        />
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
